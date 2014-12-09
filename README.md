@@ -1,5 +1,7 @@
 # Kanban D3
 
-A simple Kanban board with HTML5 and D3, brought to live during the first [Innovation Factory](http://www.innovationfactory.eu "Innovation Factory's website") educational hackday.
+Forked by Daniel Korenblum for tracking progress of projects. Implemented JSON data file format.
 
-Warning: This is experimental stuff. It's incomplete, and possibly wrong.
+Each box represents a project and the size of the box represents the amount of people/resources it requires.
+
+Originally from [Innovation Factory](http://www.innovationfactory.eu "Innovation Factory").
