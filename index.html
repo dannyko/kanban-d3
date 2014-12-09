@@ -1,15 +1,17 @@
 <!doctype html>
 <html>
 <head>
-  <title>D3 Fun</title>
-  <script src="./javascripts/d3.v3.min.js"></script>
-  <script src="./javascripts/kanban.js"></script>
-  <link rel=stylesheet href="./stylesheets/kanban.css">
+  <title>kanban</title>
+  <script src="javascripts/d3.v3.min.js"></script>
+  <script src="javascripts/kanban.js"></script>
+  <link rel=stylesheet href="stylesheets/kanban.css">
 </head>
 <body>
+  
   <div id="board">
-    <div data-step="1"></div>
-    <div data-step="2"></div>
+    <div data-step="1"><center><b>In Preparation</b></center></div>
+    <div data-step="2"><center><b>In Progress</b></center></div>
+    <div data-step="3"><center><b>Completed</b></center></div>
     <div id="stories"></div>
   </div>
 </body>

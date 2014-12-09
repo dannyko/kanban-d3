@@ -1,0 +1,6 @@
+{"data":[
+{"value":0,"id":0,"name":"Tag Mapping","step":1,"size":3,"impact":"accuracy, throughput","questions":"ranking sets of 4 by capture rate, dwell time, level","old_conclusions":"cy3 containing tags have higher capture rates","new_conclusions":"amino tags have dwell times directly correlated with voltage","days_remaining":"21-35","verified":false},
+{"value":1,"id":1,"name":"Operating Conditions","step":1,"size":6,"impact":"accuracy, throughput","questions":"effects of salt, pH, temperature, voltage","old_conclusions":"enzyme works better with salt < 300mM","new_conclusions":"lowering temperature increases dwell time and reduces spread","days_remaining":"21-35","verified":false},
+{"value":2,"id":2,"name":"Enzyme Variants","step":2,"size":12,"impact":"accuracy, throughput","questions":"ranking phi29, BST, and Klenow mutants","old_conclusions":"sticky phi29 has longer dwell times than wildtype","new_conclusions":"_","days_remaining":"140-210","verified":true},
+{"value":3,"id":3,"name":"Complex Variants","step":2,"size":8,"impact":"accuracy, throughput","questions":"ranking complexes by performance on-chip","old_conclusions":"1:6 with DNA linked to pore are working on-chip","new_conclusions":"spy tag linked polymerase shows activity on-chip","days_remaining":"70-140","verified":true}
+]}
